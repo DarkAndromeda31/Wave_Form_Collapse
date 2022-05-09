@@ -11,7 +11,7 @@ class Tile:
             self.set_sprite(s)
 
     def __str__(self) -> str:
-        return self.sprite.name
+        return self.sprite.short_name
 
     def set_sprite(self, s: Sprite) -> None:
         self.sprite = s

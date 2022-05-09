@@ -1,14 +1,28 @@
 import json
+from PIL import Image
+
 
 class SpriteSheet:
-    def __init__(self, spritedata):
+    def __init__(self, spritedata: str, sprite_image: str) -> None:
         self.sprite_library = []
 
-        with open(spritedata, "r") as f:
-            for sprite in json.load(spritedata):
-                self.sprite_library.append(Sprite)
+        with open(spritedata, encoding='utf-8') as f:
+            for sprite in json.load(f):
+                self.sprite_library.append(
+                    Sprite(sprite["name"], sprite["short_name"], tuple(sprite["location"]), sprite["connects"]))
 
+        # Generate "stamps" for tiles
+        with Image.open(sprite_image) as im:
+            width, height = im.size
 
+            self.image_bank = []
+            for y in range(0, height, 16):
+                row = []
+                for x in range(0, width, 16):
+                    stamp = im.crop((x, y, x + 16, y + 16))
+
+                    row.append(stamp)
+                self.image_bank.append(row)
 
 
 class Sprite:

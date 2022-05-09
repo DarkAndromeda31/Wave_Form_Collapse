@@ -1,3 +1,588 @@
 [
-
+  {
+    "name": "Null",
+    "short_name": "#",
+    "location": [
+      0,
+      0
+    ],
+    "connects": {
+      "top": [],
+      "bottom": [],
+      "left": [],
+      "right": []
+    }
+  },
+  {
+    "name": "Grass",
+    "short_name": "_",
+    "location": [
+      1,
+      0
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  },
+  {
+    "name": "Forest",
+    "short_name": "⇞",
+    "location": [
+      2,
+      0
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  },
+  {
+    "name": "Grove",
+    "short_name": "◎",
+    "location": [
+      3,
+      0
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  },
+  {
+    "name": "Village",
+    "short_name": "⟑",
+    "location": [
+      4,
+      0
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  },
+  {
+    "name": "Castle",
+    "short_name": "∏",
+    "location": [
+      5,
+      0
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  },
+  {
+    "name": "Mountain",
+    "short_name": "▲",
+    "location": [
+      6,
+      0
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  },
+  {
+    "name": "Volcano",
+    "short_name": "△",
+    "location": [
+      7,
+      0
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  },
+  {
+    "name": "Sand",
+    "short_name": "░",
+    "location": [
+      8,
+      0
+    ],
+    "connects": {
+      "top": [
+        "sand"
+      ],
+      "bottom": [
+        "sand"
+      ],
+      "left": [
+        "sand"
+      ],
+      "right": [
+        "sand"
+      ]
+    }
+  },
+  {
+    "name": "Oasis",
+    "short_name": "o",
+    "location": [
+      9,
+      0
+    ],
+    "connects": {
+      "top": [
+        "sand"
+      ],
+      "bottom": [
+        "sand"
+      ],
+      "left": [
+        "sand"
+      ],
+      "right": [
+        "sand"
+      ]
+    }
+  },
+  {
+    "name": "Ocean",
+    "short_name": "≈",
+    "location": [
+      0,
+      1
+    ],
+    "connects": {
+      "top": [
+        "water"
+      ],
+      "bottom": [
+        "water"
+      ],
+      "left": [
+        "water"
+      ],
+      "right": [
+        "water"
+      ]
+    }
+  },
+  {
+    "name": "Coast --L-",
+    "short_name": "⎸",
+    "location": [
+      1,
+      1
+    ],
+    "connects": {
+      "top": [
+        "water"
+      ],
+      "bottom": [
+        "water"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "water"
+      ]
+    }
+  },
+  {
+    "name": "Coast ---R",
+    "short_name": "⎹",
+    "location": [
+      2,
+      1
+    ],
+    "connects": {
+      "top": [
+        "water"
+      ],
+      "bottom": [
+        "water"
+      ],
+      "left": [
+        "water"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  },
+  {
+    "name": "Coast U---",
+    "short_name": "-",
+    "location": [
+      3,
+      1
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "water"
+      ],
+      "left": [
+        "water"
+      ],
+      "right": [
+        "water"
+      ]
+    }
+  },
+  {
+    "name": "Coast -D--",
+    "short_name": "_",
+    "location": [
+      4,
+      1
+    ],
+    "connects": {
+      "top": [
+        "water"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "water"
+      ],
+      "right": [
+        "water"
+      ]
+    }
+  },
+  {
+    "name": "Coast U-L-",
+    "short_name": "⎾",
+    "location": [
+      5,
+      1
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "water"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "water"
+      ]
+    }
+  },
+  {
+    "name": "Coast U--R",
+    "short_name": "⏋",
+    "location": [
+      6,
+      1
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "water"
+      ],
+      "left": [
+        "water"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  },
+  {
+    "name": "Coast -DL-",
+    "short_name": "⎿",
+    "location": [
+      7,
+      1
+    ],
+    "connects": {
+      "top": [
+        "water"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "water"
+      ]
+    }
+  },
+  {
+    "name": "Coast -D-R",
+    "short_name": "⎿",
+    "location": [
+      8,
+      1
+    ],
+    "connects": {
+      "top": [
+        "water"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "water"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  },
+  {
+    "name": "Desert Edge --L-",
+    "short_name": "⎸",
+    "location": [
+      9,
+      1
+    ],
+    "connects": {
+      "top": [
+        "sand"
+      ],
+      "bottom": [
+        "sand"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "sand"
+      ]
+    }
+  },
+  {
+    "name": "Desert Edge ---R",
+    "short_name": "⎹",
+    "location": [
+      0,
+      2
+    ],
+    "connects": {
+      "top": [
+        "sand"
+      ],
+      "bottom": [
+        "sand"
+      ],
+      "left": [
+        "sand"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  },
+  {
+    "name": "Desert Edge U---",
+    "short_name": "-",
+    "location": [
+      1,
+      2
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "sand"
+      ],
+      "left": [
+        "sand"
+      ],
+      "right": [
+        "sand"
+      ]
+    }
+  },
+  {
+    "name": "Desert Edge -D--",
+    "short_name": "_",
+    "location": [
+      2,
+      2
+    ],
+    "connects": {
+      "top": [
+        "sand"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "sand"
+      ],
+      "right": [
+        "sand"
+      ]
+    }
+  },
+  {
+    "name": "Desert Edge U-L-",
+    "short_name": "⎾",
+    "location": [
+      3,
+      2
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "sand"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "sand"
+      ]
+    }
+  },
+  {
+    "name": "Desert Edge U--R",
+    "short_name": "⏋",
+    "location": [
+      4,
+      2
+    ],
+    "connects": {
+      "top": [
+        "grass"
+      ],
+      "bottom": [
+        "sand"
+      ],
+      "left": [
+        "sand"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  },
+  {
+    "name": "Desert Edge -DL-",
+    "short_name": "⎿",
+    "location": [
+      5,
+      2
+    ],
+    "connects": {
+      "top": [
+        "sand"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "grass"
+      ],
+      "right": [
+        "sand"
+      ]
+    }
+  },
+  {
+    "name": "Desert Edge -D-R",
+    "short_name": "⎿",
+    "location": [
+      6,
+      2
+    ],
+    "connects": {
+      "top": [
+        "sand"
+      ],
+      "bottom": [
+        "grass"
+      ],
+      "left": [
+        "sand"
+      ],
+      "right": [
+        "grass"
+      ]
+    }
+  }
 ]

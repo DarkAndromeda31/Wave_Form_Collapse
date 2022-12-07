@@ -9,7 +9,8 @@ class SpriteSheet:
         with open(spritedata, encoding='utf-8') as f:
             for sprite in json.load(f):
                 self.sprite_library.append(
-                    Sprite(sprite["name"], sprite["short_name"], tuple(sprite["location"]), sprite["connects"]))
+                    Sprite(sprite["name"], sprite["short_name"], tuple(sprite["location"]), sprite["type"],
+                           sprite["connects"], sprite["weight"]))
 
         # Generate "stamps" for tiles
         with Image.open(sprite_image) as im:
@@ -26,8 +27,10 @@ class SpriteSheet:
 
 
 class Sprite:
-    def __init__(self, name: str, short_name: str, location: tuple, connects: dict) -> None:
+    def __init__(self, name: str, short_name: str, location: tuple, tile_type: str, connects: dict, weight: int) -> None:
         self.name = name
         self.short_name = short_name
         self.loc = location
+        self.type = tile_type
         self.connects = connects
+        self.weight = weight

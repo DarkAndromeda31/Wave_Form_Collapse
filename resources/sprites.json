@@ -6,11 +6,21 @@
       0,
       0
     ],
+    "type": "none",
+    "weight": 0,
     "connects": {
-      "top": [],
-      "bottom": [],
-      "left": [],
-      "right": []
+      "top": [
+        "none"
+      ],
+      "bottom": [
+        "none"
+      ],
+      "left": [
+        "none"
+      ],
+      "right": [
+        "none"
+      ]
     }
   },
   {
@@ -20,6 +30,8 @@
       1,
       0
     ],
+    "type": "grass",
+    "weight": 1,
     "connects": {
       "top": [
         "grass"
@@ -42,6 +54,8 @@
       2,
       0
     ],
+    "type": "grass",
+    "weight": 0.5,
     "connects": {
       "top": [
         "grass"
@@ -64,6 +78,8 @@
       3,
       0
     ],
+    "type": "grass",
+    "weight": 0.2,
     "connects": {
       "top": [
         "grass"
@@ -86,6 +102,8 @@
       4,
       0
     ],
+    "type": "grass",
+    "weight": 0.5,
     "connects": {
       "top": [
         "grass"
@@ -108,6 +126,8 @@
       5,
       0
     ],
+    "type": "grass",
+    "weight": 0.2,
     "connects": {
       "top": [
         "grass"
@@ -130,6 +150,8 @@
       6,
       0
     ],
+    "type": "grass",
+    "weight": 0.5,
     "connects": {
       "top": [
         "grass"
@@ -148,10 +170,12 @@
   {
     "name": "Volcano",
     "short_name": "△",
+    "weight": 0.1,
     "location": [
       7,
       0
     ],
+    "type": "grass",
     "connects": {
       "top": [
         "grass"
@@ -174,6 +198,8 @@
       8,
       0
     ],
+    "type": "sand",
+    "weight": 0.1,
     "connects": {
       "top": [
         "sand"
@@ -196,6 +222,8 @@
       9,
       0
     ],
+    "type": "sand",
+    "weight": 0.1,
     "connects": {
       "top": [
         "sand"
@@ -218,6 +246,8 @@
       0,
       1
     ],
+    "type": "water",
+    "weight": 0.1,
     "connects": {
       "top": [
         "water"
@@ -240,6 +270,8 @@
       1,
       1
     ],
+    "type": "water",
+    "weight": 0.005,
     "connects": {
       "top": [
         "water"
@@ -262,6 +294,8 @@
       2,
       1
     ],
+    "type": "water",
+    "weight": 0.005,
     "connects": {
       "top": [
         "water"
@@ -284,6 +318,8 @@
       3,
       1
     ],
+    "type": "water",
+    "weight": 0.005,
     "connects": {
       "top": [
         "grass"
@@ -306,6 +342,8 @@
       4,
       1
     ],
+    "type": "water",
+    "weight": 0.005,
     "connects": {
       "top": [
         "water"
@@ -328,6 +366,8 @@
       5,
       1
     ],
+    "type": "water",
+    "weight": 0.005,
     "connects": {
       "top": [
         "grass"
@@ -350,6 +390,8 @@
       6,
       1
     ],
+    "type": "water",
+    "weight": 0.005,
     "connects": {
       "top": [
         "grass"
@@ -372,6 +414,8 @@
       7,
       1
     ],
+    "type": "water",
+    "weight": 0.005,
     "connects": {
       "top": [
         "water"
@@ -389,11 +433,13 @@
   },
   {
     "name": "Coast -D-R",
-    "short_name": "⎿",
+    "short_name": "⏌",
     "location": [
       8,
       1
     ],
+    "type": "water",
+    "weight": 0.005,
     "connects": {
       "top": [
         "water"
@@ -416,6 +462,8 @@
       9,
       1
     ],
+    "type": "sand",
+    "weight": 0.005,
     "connects": {
       "top": [
         "sand"
@@ -438,6 +486,8 @@
       0,
       2
     ],
+    "type": "sand",
+    "weight": 0.005,
     "connects": {
       "top": [
         "sand"
@@ -460,6 +510,8 @@
       1,
       2
     ],
+    "type": "sand",
+    "weight": 0.005,
     "connects": {
       "top": [
         "grass"
@@ -482,6 +534,8 @@
       2,
       2
     ],
+    "type": "sand",
+    "weight": 0.005,
     "connects": {
       "top": [
         "sand"
@@ -498,18 +552,20 @@
     }
   },
   {
-    "name": "Desert Edge U-L-",
-    "short_name": "⎾",
+    "name": "Desert Edge D-L-",
+    "short_name": "⎿",
     "location": [
       3,
       2
     ],
+    "type": "sand",
+    "weight": 0.005,
     "connects": {
       "top": [
-        "grass"
+        "sand"
       ],
       "bottom": [
-        "sand"
+        "grass"
       ],
       "left": [
         "grass"
@@ -520,18 +576,20 @@
     }
   },
   {
-    "name": "Desert Edge U--R",
-    "short_name": "⏋",
+    "name": "Desert Edge D--R",
+    "short_name": "⏌",
     "location": [
       4,
       2
     ],
+    "type": "sand",
+    "weight": 0.005,
     "connects": {
       "top": [
-        "grass"
+        "sand"
       ],
       "bottom": [
-        "sand"
+        "grass"
       ],
       "left": [
         "sand"
@@ -542,18 +600,20 @@
     }
   },
   {
-    "name": "Desert Edge -DL-",
-    "short_name": "⎿",
+    "name": "Desert Edge -UL-",
+    "short_name": "⎾",
     "location": [
       5,
       2
     ],
+    "type": "sand",
+    "weight": 0.005,
     "connects": {
       "top": [
-        "sand"
+        "grass"
       ],
       "bottom": [
-        "grass"
+        "sand"
       ],
       "left": [
         "grass"
@@ -564,18 +624,20 @@
     }
   },
   {
-    "name": "Desert Edge -D-R",
-    "short_name": "⎿",
+    "name": "Desert Edge -U-R",
+    "short_name": "⏋",
     "location": [
       6,
       2
     ],
+    "type": "sand",
+    "weight": 0.005,
     "connects": {
       "top": [
-        "sand"
+        "grass"
       ],
       "bottom": [
-        "grass"
+        "sand"
       ],
       "left": [
         "sand"
